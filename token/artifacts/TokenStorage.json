@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60806040526008805460ff19169055348015601957600080fd5b50603f8060276000396000f3fe6080604052600080fdfea2646970667358221220db77bdf6a6d349fdf0473192388c710e6ee8794fc1ac1aa4e95dc6e1df78672f64736f6c63430008110033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x8 DUP1 SLOAD PUSH1 0xFF NOT AND SWAP1 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x19 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x27 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xDB PUSH24 0xBDF6A6D349FDF0473192388C710E6EE8794FC1AC1AA4E95D 0xC6 0xE1 0xDF PUSH25 0x672F64736F6C63430008110033000000000000000000000000 ",
+			"sourceMap": "171:769:9:-:0;;;761:34;;;-1:-1:-1;;761:34:9;;;171:769;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea2646970667358221220db77bdf6a6d349fdf0473192388c710e6ee8794fc1ac1aa4e95dc6e1df78672f64736f6c63430008110033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xDB PUSH24 0xBDF6A6D349FDF0473192388C710E6EE8794FC1AC1AA4E95D 0xC6 0xE1 0xDF PUSH25 0x672F64736F6C63430008110033000000000000000000000000 ",
+			"sourceMap": "171:769:9:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "24284",
+				"totalCost": "36884"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
